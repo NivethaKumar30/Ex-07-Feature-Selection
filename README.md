@@ -138,3 +138,8 @@ plt.title("Feature importance using Lasso Model")
 ```
 
 # OUPUT
+
+
+RESULT:
+
+Various feature selection techniques have been performed on a given dataset successfully.
