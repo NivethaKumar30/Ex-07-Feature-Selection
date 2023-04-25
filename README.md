@@ -19,6 +19,10 @@ Save the data to the file
 
 # CODE
 ```
+Developed By: NIVETHA K
+Register No: 212222230102
+```
+```
 from sklearn.datasets import load_boston
 import pandas as pd
 import numpy as np
