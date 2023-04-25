@@ -138,14 +138,56 @@ plt.title("Feature importance using Lasso Model")
 ```
 # OUPUT
 
+```
+Feature selection can be done in multiple ways but there are broadly 3 categories of it:
+1. Filter Method
+2. Wrapper Method
+3. Embedded Method
+```
+
+DATASET:
+
 ![d1](https://user-images.githubusercontent.com/119559844/234180495-7ac5423e-bbcb-4f23-9fbd-e2e0213e8c7c.png)
+
+FILTER METHOD:
+```
+The filtering here is done using correlation matrix and it is most commonly done using Pearson correlation.
+```
+HIGHLY CORRELATED FEATURE WITH OUTPUT VARIABLE PRICE:
+
 ![d2 ](https://user-images.githubusercontent.com/119559844/234180584-bd55abbe-3f20-4b7b-8748-871fb841063a.png)
+
+CHECKING CORRELATION WITH EACH OTHER:
+
 ![d3 ](https://user-images.githubusercontent.com/119559844/234180593-46ca847e-eea2-4d2a-b3fe-2c0afccdbc25.png)
+
+WRAPPER METHOD:
+
+```
+Wrapper Method is an iterative and computationally expensive process but it is more accurate than the filter method.
+
+There are different wrapper methods such as Backward Elimination, Forward Selection, Bidirectional Elimination and RFE.
+```
+BACKWARD ELIMINATION:
+
 ![d4](https://user-images.githubusercontent.com/119559844/234180602-2a9effbc-7fdd-492a-bc5b-6ce830880990.png)
+
 ![d5](https://user-images.githubusercontent.com/119559844/234180613-3eb9cec5-43e2-43fc-9bd3-0b7a66c4bb20.png)
+
+RECURSIVE FEATURE ELIMINATION(RFE):
+
 ![d6](https://user-images.githubusercontent.com/119559844/234180624-16e2d1dc-8371-4766-9f50-932fa8264c50.png)
+
+NUMBER OF FEATURE HAVING HIGH ACCURACY:
+
 ![d7](https://user-images.githubusercontent.com/119559844/234180627-2a86e228-9d2f-40de-ae60-3825826dfd8d.png)
+
+FINAL SET OF FEATURE:
+
 ![d8](https://user-images.githubusercontent.com/119559844/234180638-beaa20ed-a6a5-4303-b5e0-6e601a53a9ae.png)
+
+EMBEDDED METHOD:
+
 ![d9](https://user-images.githubusercontent.com/119559844/234180646-6198293f-0ece-4861-80eb-2d937eed6ea1.png)
 
 
