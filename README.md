@@ -130,6 +130,32 @@ y_pred = cross_val_predict(classifier_pipeline, X, y, cv=cv)
 print("RMSE: " + str(round(sqrt(mean_squared_error(y,y_pred)),3)))
 print("R_squared: " + str(round(r2_score(y,y_pred),3)))
 ```
+#OUTPUT :
+
+![image](https://github.com/NivethaKumar30/Ex-07-Feature-Selection/assets/119559844/4a103f60-6868-49f5-ab32-49b21d2da2af)
+
+![image](https://github.com/NivethaKumar30/Ex-07-Feature-Selection/assets/119559844/61ebb542-cb51-4989-9e9c-1d9ca736c59d)
+
+![image](https://github.com/NivethaKumar30/Ex-07-Feature-Selection/assets/119559844/d9a61c14-8017-4bf1-b74b-26f82b2d1923)
+
+![image](https://github.com/NivethaKumar30/Ex-07-Feature-Selection/assets/119559844/0f01bec6-1b68-49df-9061-51e20fcac0d1)
+
+![image](https://github.com/NivethaKumar30/Ex-07-Feature-Selection/assets/119559844/7d251524-e69d-4992-95fa-48b837693789)
+
+![image](https://github.com/NivethaKumar30/Ex-07-Feature-Selection/assets/119559844/9f5b72a3-3aaa-4d01-90a3-1bbae24773b5)
+
+![image](https://github.com/NivethaKumar30/Ex-07-Feature-Selection/assets/119559844/9c8bd47c-cd68-4863-841f-3c9a0cf36f91)
+
+![image](https://github.com/NivethaKumar30/Ex-07-Feature-Selection/assets/119559844/185b08f6-e4ab-444a-9f4f-7e7e73b19ce7)
+
+![image](https://github.com/NivethaKumar30/Ex-07-Feature-Selection/assets/119559844/7c90d7f3-f412-4793-ae74-26a3e6f5ea91)
+
+![image](https://github.com/NivethaKumar30/Ex-07-Feature-Selection/assets/119559844/d6b2c944-e7a8-47a6-8f8f-36b962adf7de)
+
+![image](https://github.com/NivethaKumar30/Ex-07-Feature-Selection/assets/119559844/10daf2b9-0757-425c-b2f2-4c64d19f41fa)
+
+![image](https://github.com/NivethaKumar30/Ex-07-Feature-Selection/assets/119559844/e88d01f4-b2ca-4d6a-9c05-a6c9c1c9d7d1)
+
 
 RESULT:
 
